@@ -13,13 +13,11 @@ Abrir `http://localhost:3000`.
 
 ## Uso
 
-1. Cargar primero la plantilla `.xlsx` real.
+1. La aplicación inicia con `plantilla/Libro Alquileres IA.xlsx`, incluido en el repositorio.
 2. Cargar uno o varios comprobantes.
 3. Revisar los resultados. Solo los casos marcados `LISTO PARA REGISTRAR` pueden seleccionarse.
-4. Descargar la copia actualizada del Excel.
+4. Guardar en el Excel principal (con respaldo automático) o descargar una copia.
 
 Los archivos se procesan de forma local. El sistema no reemplaza valores existentes, no modifica el Excel original y deja como pendientes los casos sin evidencia suficiente.
 
-## Límite pendiente
-
-Debe incorporarse el `Libro Alquileres.xlsx` real para ajustar y comprobar el mapeo de filas y períodos. Sin ese archivo no se puede validar la ubicación definitiva de las celdas ni una escritura con datos reales.
+La configuración permite cambiar la ruta del Excel principal por otra plantilla local cuando sea necesario.
