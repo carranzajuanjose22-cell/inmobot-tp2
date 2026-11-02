@@ -1,0 +1,8 @@
+{
+  "name": "inmocontrol-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node src/server.js", "dev": "node --watch src/server.js"},
+  "dependencies": {"exceljs": "^4.4.0", "express": "^5.1.0", "multer": "^2.0.0", "pdf-parse": "^2.4.5", "tesseract.js": "^6.0.1"}
+}

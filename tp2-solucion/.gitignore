@@ -1,0 +1,6 @@
+app-local/node_modules/
+app-local/storage/
+app-local/.env
+web/node_modules/
+*.log
+Thumbs.db
